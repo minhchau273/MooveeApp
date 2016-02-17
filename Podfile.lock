@@ -1,0 +1,81 @@
+PODS:
+  - Alamofire (3.1.1)
+  - AlamofireImage (2.1.0):
+    - Alamofire (~> 3.1)
+  - Bolts/Tasks (1.4.0)
+  - Cartography (0.6.0)
+  - HCSStarRatingView (1.4.3)
+  - KIF (3.3.0):
+    - KIF/Core (= 3.3.0)
+  - KIF/Core (3.3.0)
+  - Nimble (2.0.0)
+  - OHHTTPStubs (4.5.1):
+    - OHHTTPStubs/Default (= 4.5.1)
+  - OHHTTPStubs/Core (4.5.1)
+  - OHHTTPStubs/Default (4.5.1):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (4.5.1):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (4.5.1):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (4.5.1)
+  - Parse (1.9.1):
+    - Bolts/Tasks (>= 1.4.0)
+  - Quick (0.6.0)
+  - Reachability (3.2)
+  - Realm (0.96.2):
+    - Realm/Headers (= 0.96.2)
+  - Realm/Headers (0.96.2)
+  - RealmSwift (0.96.2):
+    - Realm (= 0.96.2)
+  - SwiftSpinner (0.8.0)
+  - SwiftyJSON (2.3.1)
+  - SWRevealViewController (2.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - AlamofireImage (~> 2.0)
+  - Cartography
+  - HCSStarRatingView (~> 1.4.3)
+  - KIF (from `https://github.com/kif-framework/KIF.git`)
+  - Nimble (~> 2.0.0)
+  - OHHTTPStubs
+  - Parse
+  - Quick (~> 0.6.0)
+  - Reachability
+  - RealmSwift
+  - SwiftSpinner
+  - SwiftyJSON
+  - SWRevealViewController
+
+EXTERNAL SOURCES:
+  KIF:
+    :git: https://github.com/kif-framework/KIF.git
+
+CHECKOUT OPTIONS:
+  KIF:
+    :commit: 7e8df0980a39372424144730c899d94c3c167b1d
+    :git: https://github.com/kif-framework/KIF.git
+
+SPEC CHECKSUMS:
+  Alamofire: 9b0a7188b961a03914a99304488bd226b0e46c0e
+  AlamofireImage: 97e00995920d85b5cb23ee4c3b7f92605f5dc74b
+  Bolts: 0e9bce58b9b9f5e8a7a4d47b16d2fabec289072b
+  Cartography: 70af183a248547694a8cfaa6b989cb7e04589985
+  HCSStarRatingView: bada6ae98258c3019531e0218030e2d5ad10765a
+  KIF: 0a82046d06f3648799cac522d2d0f7934214caac
+  Nimble: 472e75466819eb8c06299233e87c694a9b51328a
+  OHHTTPStubs: f9ed5d0574877f6008261de9c2728cc1662a6566
+  Parse: 54a965c8c19a6dde90284ab654dbcc77ef8c001b
+  Quick: 563686dbcf0ae0f9f7401ac9cd2d786ee1b7f3d7
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  Realm: 3ce8448151c571e90b85002d984d7f93f54fc8a3
+  RealmSwift: 485599fe54e35461c4a0daa7d01d8fbf11424873
+  SwiftSpinner: 11c2c5ec7443d92f3026d3067ca8a91d4adef13f
+  SwiftyJSON: 592b53bee5ef3dd9b3bebc6b9cb7ee35426ae8c3
+  SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
+
+COCOAPODS: 0.39.0
